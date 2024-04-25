@@ -1,0 +1,98 @@
+*{
+	padding-left: 10px;
+	margin: 10px 10px;
+}
+body{
+	background-image: url("jobs.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+}
+h1{
+	text-align: center;
+}
+label{
+	display: inline;
+	font-size: 1.4rem;
+}
+.main-div{
+	/*height:70vh;*/
+	width:50vw;
+	border: 3px solid black;
+	position: relative;
+	margin: auto auto;
+	background: cadetblue;
+	top: 10px;
+	padding: auto;
+	
+}
+.div1{
+	display: inline-block;
+	width: 12em;
+	position: relative;
+	left:50px;
+	/*background-color: red;*/
+
+}
+.div1 input, .div2 input, .div3 input{
+	width: 170px;
+height: 25px;
+border-radius: 8px;
+}
+.div2{
+	display: inline-block;
+	width:12em;
+	position: relative;
+left: 150px;
+	/*background-color: green;*/
+}
+.div3{
+	display: inline-block;
+	width:12em;
+	position: relative;
+left: 50px;
+}
+.div4{
+	display: inline-block;
+width: 12em;
+position: relative;
+left: 150px;
+}
+.div4 select{
+	width: 191px;
+height: 30px;
+border-radius: 8px;
+background-color: white;
+}
+.div5{
+display: block;position: relative;
+/*left: 50px;*/
+  /*width: 12em;*/
+/*left:50px;*/
+}
+.div5 input{
+	width: -moz-available;
+  height: 76px;
+  border-radius: 8px;
+  /*left:50px;*/
+}
+.div6{
+	display: inline-block;
+	width:12em;
+	position: relative;
+left: 150px;
+}
+.div6 input{
+border:2px solid white;
+border-radius: 8px;
+height:26px;
+	background-color: white;
+}
+.submit input{
+	display: inline;
+	position: relative;
+	background-color: black;
+	color:white;
+	font-size:1.2rem;
+	left:500px;
+}

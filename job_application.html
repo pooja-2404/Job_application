@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Application Form</title>
+	<link rel="stylesheet" type="text/css" href="job_app.css">
+</head>
+<body>
+	<form>
+	<header></header>
+	<body>
+	<div class="main-div">
+     <h1>Job Application</h1>
+
+		<div class="div1"><label for="fname">First Name</label><br>
+		<input type="text" id="fname" name="fname" placeholder="Enter First Name..." required></div>
+
+		<div class="div2"><label for="lname">Last Name</label><br>
+		<input type="text" id="lname" name="lname" placeholder="Enter Last Name..."></div>
+<br>
+		<div class="div3"><label for="email">Email</label><br>
+		<input type="email" id="email" name="email" placeholder="Enter Email id..." required></div>
+
+		<div class="div4"><label for="jobrole">Job Role</label><br>
+			<select name="Job Role" id="jobrole" required>
+				<option>Select Job Role</option>
+				<option selected>Web Developer</option>
+				<option>Java Developer</option>
+				<option>Python Developer</option>
+				<option>SQL Developer</option>
+				<option>PHP Developer</option>
+			</select>
+		</div>
+		<div class="div5">
+			<label for="address">Address</label><br>
+			<input type="Address" id="address" name="address" required>
+		</div>
+
+		<div class="div3"><label for="city">City</label><br>
+		<input type="text" id="city" name="city" placeholder="Enter city Name..."></div>
+
+		<div class="div2"><label for="pin">Pincode</label><br>
+		<input type="text" id="pin" name="pincode" placeholder="Enter pincode ..." required></div>
+<br>
+		<div class="div3"><label for="date">Start Date</label><br>
+		<input type="date" id="date" name="date" placeholder="Enter Start Date..." required></div>
+
+		<div class="div6"><label for="cv">Upload CV</label><br>
+		<input type="file" id="cv" name="cv" required></div>
+		<br>
+<div class="submit">
+	<input type="submit" name="Apply Now" value="Apply Now">
+</div>
+	</div>
+	</body>
+	<footer></footer>
+</form>
+</body>
+</html>
